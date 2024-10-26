@@ -7,6 +7,7 @@
 
     shellAliases = {
         ll = "ls -al";
+        hardware = "lshw -short";
     };
   };
 

@@ -26,6 +26,14 @@
         enable = true;
         userName  = "mezlogo";
         userEmail = "mezencevdenis@yandex.ru";
+        aliases = {
+            co = "checkout";
+            br = "branch";
+            cm = "commit -m";
+            f = "fetch";
+            p = "pull";
+            cam = "commit -am";
+        };
         extraConfig = {
             init.defaultBranch = "master";
         };

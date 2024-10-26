@@ -27,5 +27,14 @@
         userName  = "mezlogo";
         userEmail = "mezencevdenis@yandex.ru";
     };
+
+    neovim = {
+        enable = true;
+        defaultEditor = true;
+        plugins = with pkgs.vimPlugins; [
+            everforest
+            nerdtree
+        ];
+    };
   };
 }

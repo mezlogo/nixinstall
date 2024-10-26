@@ -2,6 +2,7 @@
   imports =
     [
       ./hardware-configuration.nix
+      <home-manager/nixos>
     ];
 
   boot.loader.systemd-boot.enable = true;

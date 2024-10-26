@@ -55,7 +55,7 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
 
-  users.users.alice = {
+  users.users.mezlogo = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "input" ];
   };

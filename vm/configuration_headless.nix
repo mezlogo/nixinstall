@@ -20,7 +20,7 @@
     ];
   }
 
-  users.users.alice = {
+  users.users.mezlogo = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "input" ];
   };

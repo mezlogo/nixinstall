@@ -1,16 +1,30 @@
 { config, pkgs, ...}: {
-  home.username = "mezlogo";
-  home.homeDirectory = "/home/mezlogo";
-  home.stateVersion = "24.05";
-  programs.home-manager.enable = true;
+  
+  home = {
+    username = "mezlogo";
+    homeDirectory = "/home/mezlogo";
+    stateVersion = "24.05";
 
-  programs.bash = {
-    enable = true;
+    shellAliases = {
+        ll = "ls -al";
+    };
   };
 
-  programs.git = {
-    enable = true;
-    userName  = "mezlogo";
-    userEmail = "mezencevdenis@yandex.ru";
+  programs = {
+    home-manager.enable = true;
+
+    bash = {
+        enable = true;
+        shellAliases = {
+            rebuild_nixos = "sudo nixos-rebuild switch";
+            rebuild_home = "home-manager switch";
+        };
+    };
+
+    git = {
+        enable = true;
+        userName  = "mezlogo";
+        userEmail = "mezencevdenis@yandex.ru";
+    };
   };
 }

@@ -14,7 +14,7 @@
 ```
 nix-env -f '<nixpkgs>' -iA git
 git clone https://github.com/mezlogo/nixinstall
-nix run nixpkgs#git -- clone https://github.com/mezlogo/nixinstall.git
+cd nixinstall
 ```
 
 ## basic configuration

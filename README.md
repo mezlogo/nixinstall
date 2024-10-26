@@ -30,3 +30,7 @@ cd nixinstall
 - hardware configuration
 - boot loader
 - remove beep kernel module
+
+## test nix configuration
+
+`nix-instantiate --parse $FILE`

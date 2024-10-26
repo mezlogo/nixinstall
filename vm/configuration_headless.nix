@@ -18,7 +18,7 @@
       "en_US.UTF-8"
       "ru_RU.UTF-8"
     ];
-  }
+  };
 
   users.users.mezlogo = {
     isNormalUser = true;

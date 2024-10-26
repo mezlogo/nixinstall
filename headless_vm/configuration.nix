@@ -27,7 +27,7 @@
 
   environment.systemPackages = with pkgs; [
     neovim
-    tree
+    git
   ];
 
   services.openssh.enable = true;

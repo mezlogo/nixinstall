@@ -42,6 +42,10 @@ cd nixinstall
 - bash script
 - bash script to PATH
 - bash completion
+- neovim plugins
+- shell EDITOR neovim
+- git config
+- git alias
 
 ## [DONE] todo 1. headless vm with uefi and user
 

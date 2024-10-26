@@ -26,6 +26,9 @@
         enable = true;
         userName  = "mezlogo";
         userEmail = "mezencevdenis@yandex.ru";
+        extraConfig = {
+            init.deafultBranch = "master";
+        };
     };
 
     neovim = {
